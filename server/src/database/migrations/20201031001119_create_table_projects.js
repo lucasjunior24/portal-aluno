@@ -1,4 +1,3 @@
-
 exports.up = knex => knex.schema.createTable('projects', table => {
     table.increments('id')
     table.text('title')
@@ -12,6 +11,5 @@ exports.up = knex => knex.schema.createTable('projects', table => {
 
     table.timestamps(true, true)
 });
-
 
 exports.down = knex => knex.schema.dropTable('projects');
