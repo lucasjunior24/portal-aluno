@@ -18,6 +18,7 @@ OBS: o banco tem que ter esse nome
 
 CREATE DATABASE portal_alunos;
 
-para ver se o banco foi criado, rode no terminal: \l
+Para ver se o banco foi criado, rode no terminal: \l
+Com o banco rodando ja sera possivel criar as tabelas do banco, para criar a primeira tabela, rode o comando
 
-com o banco rodando ja sera possivel criar as tabelas do banco
+npx knex migrate:make create_table_users
